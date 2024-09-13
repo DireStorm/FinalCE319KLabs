@@ -17,7 +17,7 @@ To preface, the Traffic System project was part of a lab in my Intro to Embedded
 https://github.com/user-attachments/assets/1278c269-a73e-4bd3-9c6a-8441654272cd
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/2df7e6d3-21fa-417a-bcbe-f13ef3440062" alt="IMG_1957" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/2df7e6d3-21fa-417a-bcbe-f13ef3440062" alt="IMG_1957" width="500" height="600">
 </div>
 
 ### Circuit

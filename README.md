@@ -1,4 +1,4 @@
-# Decimal Fixed Point Raycaster and FSM based Traffic System
+# Scary Maze: Decimal Fixed Point Raycaster
 > By Jerin Andrews
 
 ## Introduction

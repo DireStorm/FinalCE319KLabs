@@ -14,7 +14,7 @@ To preface, the Raycaster project was a final project of our choice in my Embedd
 [Full Demo](https://www.youtube.com/watch?v=zPbL96ubVow)
 
 ### Optimizations and Design
-+ **Floating Point to Fixed Point**
++ **Floating Point to Fixed Point Math**
 
   >Commonly raycasters are designed using floating point math, but due to the use of an embedded system, a time critical system, the math must be simplified in order to reduce processing cost and improve overall efficiency. To do this, I converted the floating point math to fixed-point math, more specifically decimal fixed point math. To do this, I took each math operation and equation used in creating the raycaster (i.e. wall height calulations, depth calculations, etc.) and scaled its source values by a multiple of 10. This preserved a set (based on the scaling factor) decimal places in whole number format to perform the calculations with only integers.
 

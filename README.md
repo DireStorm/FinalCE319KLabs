@@ -18,7 +18,7 @@ To preface, the Raycaster project was a final project of our choice in my Embedd
 
   >Commonly raycasters are designed using floating point math, but due to the use of an embedded system, a time critical system, the math must be simplified in order to reduce processing cost and improve overall efficiency. To do this, I converted the floating point math to fixed-point math, more specifically decimal fixed point math. To do this, I took each math operation and equation used in creating the raycaster (i.e. wall height calulations, depth calculations, etc.) and scaled its source values by a multiple of 10. This preserved a set (based on the scaling factor) decimal places in whole number format to perform the calculations with only integers.
 
-+ **Drawing Buffer**
++ **Optimized Memory Usage for Drawing Buffer**
   >Initially, I planned on storing each pixel's binary value (0 and 1, off and on respectively) in a image buffer the same size as the screen (128x160), but I quickly ran into memory limitations. To optimize from using a buffer the size of the screen, I converted the drawing process to draw each vertical strip at a time instead of drawing each pixel at a time. Since the built in drawing algorithm's time complexity (and total output time) would be about the same as before, this new method would focus on purely reducing memory usage. To draw each vertical strip, I created a struct that defined each vertical strips properties such as its starting point and ending point. Now, since the program would only need to store an array of structs with a size limited to the width of the screen in pixels multiplied by the bytes for each property.
 
 + **No Flicker Image Overlay**

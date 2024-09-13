@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/1278c269-a73e-4bd3-9c6a-8441654272cd
 
 ### Circuit
 ![IMG_2354_2](https://github.com/user-attachments/assets/05ab0f76-e1bf-478b-89c1-e82b06e5b16e)
-> Top Circuit: DAC (Audio Output), Bottom Circuit: Display (ST7735R), Left Circuit: Inputs (ADC and Buttons), Center: MSPM0 Microcontroller
+> Top Circuit: 8 Bit DAC (Audio Output), Bottom Circuit: Display (ST7735R), Left Circuit: Inputs (ADC and Buttons), Center: MSPM0 Microcontroller
 
 ### Possible Additions:
 + Although decimal fixed point math is highly efficient, I can improve efficiency by switching to binary fixed point. This would reduce the number of assembly operations for any calculations since to convert values (or scale values) to binary fixed point values, the cost is one binary shift instruction. Decimal fixed point math, on the other hand, uses division by multiples of 10, which would require a significant amount more instruction calls (since division isn't a built-in instruction).

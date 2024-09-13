@@ -10,5 +10,5 @@ To preface, the Traffic System project was part of a lab in my Intro to Embedded
 
 
 ## Overview
-# Demo
+### Demo
 

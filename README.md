@@ -22,3 +22,4 @@ https://github.com/user-attachments/assets/1278c269-a73e-4bd3-9c6a-8441654272cd
 
 ### Circuit
 ![IMG_2354_2](https://github.com/user-attachments/assets/05ab0f76-e1bf-478b-89c1-e82b06e5b16e)
+> Top Circuit: DAC (Audio Output), Bottom Circuit: Display (ST7735R), Left Circuit: Inputs (ADC and Buttons), Center: MSPM0 Microcontroller

@@ -11,9 +11,8 @@ To preface, the Traffic System project was part of a lab in my Intro to Embedded
 
 ## Overview
 ### Demo
-[![Demo](https://img.youtube.com/vi/zPbL96ubVow/0.jpg)](https://www.youtube.com/watch?v=zPbL96ubVow)
-
-
+[Full Demo](https://www.youtube.com/watch?v=zPbL96ubVow)
 
 ### In Development 
+https://github.com/user-attachments/assets/1278c269-a73e-4bd3-9c6a-8441654272cd
 
